@@ -67,4 +67,4 @@ print("Performance:", metrics)
 
 ## 📊 Notebook Demo
 
-For interactive visualizations, training loss plots, and experiments (e.g., Iris Dataset), check out the [`demo.ipynb`](./demo.ipynb) file.
+For interactive visualizations, training loss plots, and experiments (e.g., Iris Dataset), check out the [`demo.ipynb`](./Unmpy_Nurons_project.ipynb) file.

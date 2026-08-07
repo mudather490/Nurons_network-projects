@@ -1,21 +1,62 @@
-# 🧠 Neural Network Architectures: From Scratch to Frameworks
+# 🚀 Machine Learning & AI Engineering Portfolio
 
-A comprehensive, hands-on engineering repository tracking the implementation of Neural Networks from fundamental mathematical principles (NumPy) to industry-standard deep learning frameworks (TensorFlow & PyTorch).
+**Author:** Mudather Kbyer  
+**Role:** Machine Learning Engineer Candidate  
+**Focus:** Deep Fundamentals, Clean Architecture, & Vectorized Implementation  
+**Profiles:** [GitHub](https://github.com/mudather490) | [LinkedIn](https://www.linkedin.com/in/mudaxkbyer)
 
 ---
 
-## 📑 Repository Structure
+## 📌 About Me
+
+I am an aspiring **Machine Learning Engineer** and **AI Engineer** dedicated to mastering the mathematical foundations, system design, and practical software architecture of modern artificial intelligence.
+
+My engineering philosophy centers on **first-principles understanding**: building core neural network layers, optimization routines, and mathematical operations from scratch in pure NumPy before scaling them using high-level frameworks like TensorFlow, PyTorch, and MLOps pipelines.
+
+---
+
+## 🛠️ Technical Skill Matrix
+
+| Domain | Skill Set & Frameworks |
+| :--- | :--- |
+| **Languages** | Python 3.10+, C++, JavaScript |
+| **Core ML & Data** | NumPy, Pandas, Scikit-learn, Vector Calculus, Linear Algebra |
+| **Deep Learning** | Custom Engine Architecture, Activation Functions, Backprop, Softmax, Cross-Entropy |
+| **Frameworks (Active/Upcoming)** | TensorFlow 2.x, Keras, PyTorch |
+| **Tooling & Infrastructure** | Git/GitHub, Virtual Environments, Modular OOP, Supabase, Linux (Zorin OS) |
+| **Engineering Quality** | PEP8, Type Hinting, Defensive Programming, Numerical Stability |
+
+---
+
+## 📁 Repository & Project Architecture
+
+All projects in this repository adhere to production-grade engineering practices:
 
 ```text
-.
-├── 📁 project-1-numpy-from-scratch/   # Deep learning fundamentals without frameworks
-│   ├── main.py                          # Object-Oriented NN Engine
-│   ├── xor_experiment.py                # Non-linear classification test
-│   ├── requirements.txt                 # Dependencies
-│   └── README.md                        # Project 1 Documentation
+machine-learning-portfolio/
 │
-├── 📁 project-2-tensorflow-keras/     # Framework implementation using TensorFlow 2.x
-│   └── [IN PROGRESS]
+├── project-1-numpy-from-scratch/     # Deep Learning fundamentals without frameworks
+│   ├── src/
+│   │   ├── __init__.py
+│   │   ├── engine.py                 # Vectorized 2-layer Neural Network Engine
+│   │   └── activations.py            # Numerically stable Sigmoid & Cross-Entropy
+│   ├── xor_experiment.py             # Non-linear classification test script
+│   ├── requirements.txt
+│   └── README.md
 │
-└── 📁 project-3-pytorch/                # Dynamic graph implementation using PyTorch
-    └── [IN PROGRESS]
+├── project-2-tensorflow-linear-neuron/ # Foundation linear regression pipeline
+│   ├── main.py                       # Single-neuron pipeline with EarlyStopping
+│   ├── saved_models/                 # Native Keras model persistence (.keras)
+│   ├── requirements.txt
+│   └── README.md
+│
+└── project-3-mnist-digit-classifier/  # Modular Multi-Layer Perceptron Pipeline
+    ├── src/
+    │   ├── __init__.py
+    │   ├── data.py                   # Data ingestion & scaling
+    │   ├── model.py                  # Sequential MLP architecture with Dropout
+    │   └── utils.py                  # Training curves & Confusion Matrix visualizers
+    ├── models/                       # Saved model artifacts
+    ├── train.py                      # Main pipeline execution entry point
+    ├── requirements.txt
+    └── README.md
